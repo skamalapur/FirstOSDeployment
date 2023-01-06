@@ -3,9 +3,17 @@
 
 name: Maven Package
 
+#on:
+#  release:
+#    types: [created]
+[5:13 PM] Naveen Pariath
+
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - master
+      - main
+
 
 jobs:
   build:
