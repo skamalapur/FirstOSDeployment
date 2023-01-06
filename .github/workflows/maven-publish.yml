@@ -8,12 +8,9 @@ name: Maven Package
 #    types: [created]
 
 on:
-  push:
-    branches:
-      - master
-      - main
-
-
+  push:
+    branches:
+    - main
 jobs:
   build:
 
