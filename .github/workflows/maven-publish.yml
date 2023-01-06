@@ -6,7 +6,6 @@ name: Maven Package
 #on:
 #  release:
 #    types: [created]
-[5:13 PM] Naveen Pariath
 
 on:
   push:
